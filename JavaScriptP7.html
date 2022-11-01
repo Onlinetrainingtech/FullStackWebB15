@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Sample()
+        {
+            var t1;
+            if(confirm("ClickHere"))
+            {
+                t1="Welcome to true block"
+            }
+            else
+            {
+                t1="Welcome to false block"
+            }
+            document.getElementById("d1").innerHTML=t1
+        }
+    </script>
+</head>
+<body>
+    <h1 id="d1"></h1>
+    <button type="button" onclick="Sample()">ClickHere</button>
+</body>
+</html>
